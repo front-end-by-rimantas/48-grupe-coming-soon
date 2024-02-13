@@ -97,6 +97,24 @@ body {
     text-decoration: underline;
 }
 
+.form-sub {
+    justify-content: center;
+}
+.form-sub input {
+    color: #fff;
+    border-color: #fff;
+}
+.form-sub input::placeholder {
+    color: #fff;
+}
+
+@media (min-width: 70rem) {
+    .form-message .form-row:nth-child(1),
+    .form-message .form-row:nth-child(2) {
+        width: calc(50% - 0.5rem);
+    }
+}
+
 /* FOOTER */
 
 footer.container {
